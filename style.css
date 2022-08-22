@@ -23,7 +23,7 @@ nav ul{
      margin-top: 15px;
      margin-right: 15px;
      font-size: 22px;
-     color: black;
+     color: #fff;
      text-decoration: none;
      align-items: flex-end;
  
@@ -50,17 +50,17 @@ nav ul{
  
  .fa-instagram {
    background: transparent;
-   color: black;
+   color: #fff;
  } 
  
 .fa-bell {
     background: transparent;
-   color: black;
+   color: #fff;
 } 
 
 .fa-facebook{
     background: transparent;
-    color: black;
+    color: #fff;
 }
 
 
@@ -169,34 +169,12 @@ nav ul a:hover::after{
     right: 1rem;
 }
 
-.About{
-    margin-top: 50px;
-    text-align: center;
-    font-size: 3rem;
-    font-family: 'Dancing Script', cursive;
-}
-
-.aboutImage{
-    position:absolute;
-    justify-content: right;
-    align-items: right;
-    width: 700px;
-    height: 450px;
-    padding-right: 100px;
-    transition: transform .2s;
-    left: 200px;
-    margin-top: 65px;
-}
-
-.aboutImage:hover{
-    transform: translate3d(42px, -62px, -135px);
-}
-
 .carousel-button:focus,
 .carousel-button:hover{
     color: white;
     background-color: rgba(0, 0, 0, .2);
 }
+
 
 #cursor{
     position: fixed;
