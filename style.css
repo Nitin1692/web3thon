@@ -70,7 +70,6 @@ nav ul{
     align-items: flex-start;
     padding: 10px;
     height: 60px;
-    clip-path: circle(50% at 50% 50%);
     margin-top: 13px;
     margin-left: 200px;
 }   
