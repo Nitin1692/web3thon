@@ -98,8 +98,7 @@ nav ul a:hover::after{
     width: 100%;
     background-position: center;
     background-size: cover;
-    position: relative;
-        
+    position: relative;    
 }
 
 .carousel{
