@@ -269,7 +269,7 @@ body{
 
 .Amazon1{
     position: relative;
-    left: -170px;
+    left: -160px;
     bottom: -63px;
     font-size: 19px;
 }
@@ -299,7 +299,7 @@ body{
 
 .Amazon2{
     position: relative;
-    left: -100px;
+    left: -170px;
     bottom: -63px;
     font-size: 19px;
 }
@@ -309,19 +309,26 @@ body{
     font-size: 22px;
     white-space: nowrap ;
     position: relative;
-    right: -50px;
+    right: -16px;
 }
 
 .Amazon3{
     position: relative;
-    left: -175px;
+    left: -156px;
     bottom: -63px;
     font-size: 19px;
 }
 
 .Amazon4{
     position: relative;
-    left: -140px;
+    left: -115px;
+    bottom: -63px;
+    font-size: 19px;
+}
+
+.Amazon100{
+    position: relative;
+    left: -150px;
     bottom: -63px;
     font-size: 19px;
 }
@@ -339,12 +346,12 @@ body{
     font-size: 22px;
     white-space: nowrap ;
     position: relative;
-    right: -26px;
+    right: -38px;
 }
 
 .Amazon5{
     position: relative;
-    left: -190px;
+    left: -175px;
     bottom: -63px;
     font-size: 19px;
 }
@@ -359,7 +366,7 @@ body{
 
 .Amazon6{
     position: relative;
-    left: -150px;
+    left: -132px;
     bottom: -63px;
     font-size: 19px;
 }
@@ -369,12 +376,12 @@ body{
     font-size: 22px;
     white-space: nowrap ;
     position: relative;
-    right: -22px; 
+    right: -30px; 
 }
 
 .Amazon7{
     position: relative;
-    left: -120px;
+    left: -125px;
     bottom: -63px;
     font-size: 19px; 
 }
@@ -384,7 +391,7 @@ body{
     font-size: 22px;
     white-space: nowrap ;
     position: relative;
-    right: -35px; 
+    right: -36px; 
 }
 
 .Amazon8{
@@ -404,7 +411,7 @@ body{
 
 .Amazon9{
     position: relative;
-    left: -150px;
+    left: -215px;
     bottom: -63px;
     font-size: 19px; 
 }
@@ -414,7 +421,7 @@ body{
     font-size: 22px;
     white-space: nowrap ;
     position: relative;
-    right: -25px; 
+    right: -0.2px; 
 }
 
 .Amazon10{
