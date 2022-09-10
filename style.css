@@ -185,14 +185,14 @@ nav ul a:hover::after{
     width: 250px;
     height: 230px;
     position: relative;
-    right: -650px;
+    right: -415px;
 }
 
 .mnu{
     padding-left: 1045px;
     position: relative;
     top: -98px;
-    left: -78px;
+    left: -75px;
     font-family: 'Crimson Text', serif;
 }
 
@@ -201,14 +201,14 @@ nav ul a:hover::after{
     width: 250px;
     height: 230px;
     position: relative;
-    right: -520px;
+    right: -250px;
 }
 
 .mlit{
     padding-left: 1050px;
     position: relative;
     top: -260px;
-    left: -147px;
+    left: -133px;
 }
 
 .img5::before{
@@ -227,3 +227,151 @@ nav ul a:hover::after{
     opacity: 1;
     visibility: visible;
 }
+
+.img4::before{
+    content:attr(title);
+    visibility: hidden;
+    opacity: 0;
+    background-color: black;
+    text-align: center;
+    transition: opacity 1s ease-in-out;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+}
+
+.img4:hover{
+    opacity: 1;
+    visibility: visible;
+}
+
+#img3{
+    clip-path: circle(50% at 50% 50%);
+    width: 250px;
+    height: 230px;
+    position: relative;
+    right: -65px;
+}
+
+.Pbv{
+    padding-left: 545px;
+    position: relative;
+    top: -0.10px;
+    left: -425px;
+    font-family: 'Crimson Text', serif;
+}
+
+.olp{
+    padding-left: 795px;
+    position: relative;
+    top: -47px;
+    left: -232px;
+    font-family: 'Crimson Text', serif;
+}
+
+.img3::before{
+    content:attr(title);
+    visibility: hidden;
+    opacity: 0;
+    background-color: black;
+    text-align: center;
+    transition: opacity 1s ease-in-out;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+}
+
+.img3:hover{
+    opacity: 1;
+    visibility: visible;
+}
+
+.mit{
+    padding-left: 770px;
+    position: relative;
+    top: -200px;
+    left: -270px;
+}
+
+.back{
+    padding-left: 600px;
+    position: relative;
+    top: -149px; 
+    left: -540px;   
+}
+
+.footer-basic {
+    padding:40px 0;
+    background-color: #339476;
+    color:#339476;
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:15px;
+    color: #ccc;
+    margin-bottom:0;
+    font-family: 'Tai Heritage Pro', serif;
+  }
+
+  .list-inline-item{
+    color: #ccc;
+    font-family: 'Tai Heritage Pro', serif;
+  }
+
+  .fa-twitter {
+    background: transparent;
+    color: black;
+  }   
+
+.fa-linkedin{
+    background: transparent;
+    color: black;
+}  
