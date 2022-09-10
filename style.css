@@ -173,4 +173,57 @@ nav ul a:hover::after{
     background-color: rgba(0, 0, 0, .2);
 }
 
+.Develop{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    margin-top: 100px;
+}
 
+#img5{
+    clip-path: circle(50% at 50% 50%);
+    width: 250px;
+    height: 230px;
+    position: relative;
+    right: -650px;
+}
+
+.mnu{
+    padding-left: 1045px;
+    position: relative;
+    top: -98px;
+    left: -78px;
+    font-family: 'Crimson Text', serif;
+}
+
+#img4{
+    clip-path: circle(50% at 50% 50%);
+    width: 250px;
+    height: 230px;
+    position: relative;
+    right: -520px;
+}
+
+.mlit{
+    padding-left: 1050px;
+    position: relative;
+    top: -260px;
+    left: -147px;
+}
+
+.img5::before{
+    content:attr(title);
+    visibility: hidden;
+    opacity: 0;
+    background-color: black;
+    text-align: center;
+    transition: opacity 1s ease-in-out;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+}
+
+.img5:hover{
+    opacity: 1;
+    visibility: visible;
+}
